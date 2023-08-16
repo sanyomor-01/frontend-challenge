@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    place-items: center;
+}
+body p{
+    font-size: 18px;
+}
+
+
+.wrapper{
+    overflow: hidden;
+   display: flex;
+   width:fit-content;
+   margin-bottom: 20px;
+   gap: 20px;
+   border-radius: 20px;
+   background-color:#fff;
+   box-shadow: 10px 10px 15px rgba(177, 187, 240, 0.5);
+   
+
+}
+.score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    color:#fff;
+    width: 300px;
+    padding: 20px;
+    border-radius:0 20px 20px 0 ;
+}
+.score-txt{
+    opacity: 0.5;
+    font-size: 20px;
+    font-weight: 500px;
+    margin-bottom: 20px;
+
+}
+.marks{
+    margin: 20px;
+    align-content: center;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.score-marks{
+    font-size: 45px;
+}
+.marks > p {
+    font-weight: 700px;
+    font-size: 12px;
+}
+.summary-card{
+    margin-right: 10px;
+    margin-top: 20px;
+    background-color:#fff;
+    width: 300px;
+    padding: 10px;
+}
+.txt {
+    font-size: 20px;
+    font-weight: 150px;
+    margin-bottom: 20px;
+    color: #373D55;
+
+}
+.score > h1{
+font-size: 30px;
+margin-bottom: 20px;
+font-weight: 800px;
+font-family: 'Hanken Grotesk',
+    sans-serif;
+}
+.score > p{
+    text-align: center;
+    opacity: 0.5;
+}
+
+
+.reaction{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    height: 45px;
+    border-radius: 10px;
+    background-color:#FFF6F5;
+    
+}
+.r-icon{
+    width:auto;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    color: #e36264;
+}
+.r-icon img{
+    width: 20px;
+    height: 20px;
+    
+}
+.memory {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    height: 45px;
+    border-radius: 10px;
+    background-color:#FFFBF2;
+   
+}
+.m-icon {
+    width: auto;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    color:#F2C05E;
+}
+
+.m-icon img {
+    width: 20px;
+    height: 20px;
+
+}
+
+.verbal {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    height: 45px;
+    border-radius: 10px;
+    background-color:#F2FBFA;
+}
+.ve-icon {
+    width: auto;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    color: #40A98F;
+}
+
+.ve-icon img {
+    width: 20px;
+    height: 20px;
+
+}
+.visual {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    height: 45px;
+    border-radius: 10px;
+    background-color:#F3F3FD ;
+}
+.vi-icon {
+    width: auto;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    color: #0D1B96;
+}
+
+.vi-icon img {
+    width: 20px;
+    height: 20px;
+
+}
+.summary-card h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+ .button {
+     height: 45px;
+     margin: 35px 0
+ }
+
+ .button input {
+     height: 100%;
+     width: 100%;
+     border-radius: 50px;
+     border: none;
+     color: #fff;
+     font-size: 18px;
+     font-weight: 500;
+     letter-spacing: 1px;
+     cursor: pointer;
+     transition: all 0.3s ease;
+     background: linear-gradient(#6743FF, #342EEA);
+ }
+ .points{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+ }
+ .points > .p1{
+    font-weight: bold;
+    color:#373D55 ;
+ }
+ .points>.p2 {
+     font-weight: lighter;
+     color: #79797a;
+ }

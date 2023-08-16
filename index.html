@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <!--Main container-->
+    <div class="wrapper">
+      <!--Score card-->
+      <div class="score">
+        <h2 class="score-txt">Your Score</h2>
+        <div class="marks">
+          <h1 class="score-marks">76</h1>
+          <p>of 100</p>
+        </div>
+        <h1>Great</h1>
+        <p>
+          You scored higher than 65% of <br />the people who have taken
+          <br />these tests.
+        </p>
+      </div>
+      <!-- The summary scores-->
+      <div class="summary-card">
+        <h2 class="txt">Summary</h2>
+
+        <div class="summary">
+          <div class="reaction">
+            <div class="r-icon">
+              <img alt="reaction icon" src="assets/images/icon-reaction.svg" />
+              <p>Reaction</p>
+            </div>
+            <div class="points">
+              <p class="p1">80</p>
+              <p class="p2">/ 100</p>
+            </div>
+          </div>
+
+          <div class="memory">
+            <div class="m-icon">
+              <img alt="memory-icon" src="assets/images/icon-memory.svg" />
+              <p>Memory</p>
+            </div>
+            <div class="points">
+              <p class="p1">92</p>
+              <p class="p2">/ 100</p>
+            </div>
+          </div>
+
+          <div class="verbal">
+            <div class="ve-icon">
+              <img alt="verbal-icon" src="assets/images/icon-verbal.svg" />
+              <p>Verbal</p>
+            </div>
+            <div class="points">
+              <p class="p1">61</p>
+              <p class="p2">/ 100</p>
+            </div>
+          </div>
+
+          <div class="visual">
+            <div class="vi-icon">
+              <img alt="visual-icon" src="assets/images/icon-visual.svg" />
+              <p>Visual</p>
+            </div>
+            <div class="points">
+              <p class="p1">72</p>
+              <p class="p2">/ 100</p>
+            </div>
+          </div>
+        </div>
+        <!--button-->
+        <div class="button">
+          <input type="submit" value="Continue" />
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/sanyomor-01">sanyomor-01</a>.
+    </div>
+  </body>
+</html>
